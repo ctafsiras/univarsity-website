@@ -104,6 +104,7 @@ nav img{
         right: -200px;
         z-index: 2;
         text-align: left;
+        transition: 1s;
     }
     .fa-solid{
         display: block;

@@ -14,7 +14,7 @@
     <section class="header">
         <nav>
             <a href="index.html"><img src="/img/logo.png" alt=""></a>
-            <div class="nav-links" id="navLinks">
+            <div class="nav-links" id="nav-links">
                 <i class="fa-solid fa-check" onclick="hideMenu()"></i>
                 <ul>
                     <li><a href="">Home</a></li>
@@ -24,7 +24,7 @@
                     <li><a href="">Contact</a></li>
                 </ul>
             </div>
-            <i class="fa-solid fa-bars" id="showMenu()"></i>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
         </nav>
         <div class="text-box">
             <h1>World's Biggest University</h1>
@@ -35,12 +35,12 @@
 
     <script>
 
-        let navLinks=document.getElementById('navLinks');
+        const navLinks=document.getElementById('nav-links');
         function showMenu() {
             navLinks.style.right='0';
         }
         function hideMenu() {
-            navLinks.style.right='-200';
+            navLinks.style.right='-200px';
         }
     </script>
 </body>
